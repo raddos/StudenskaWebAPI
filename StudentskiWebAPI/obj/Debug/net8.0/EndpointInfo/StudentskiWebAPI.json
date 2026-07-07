@@ -1,0 +1,1161 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Studentski Web API",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Diag": {
+      "get": {
+        "tags": [
+          "Diag"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/IspitniRoks": {
+      "get": {
+        "tags": [
+          "IspitniRoks"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/IspitniRoks/{id}": {
+      "get": {
+        "tags": [
+          "IspitniRoks"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Ispits": {
+      "get": {
+        "tags": [
+          "Ispits"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Ispits/{id}": {
+      "get": {
+        "tags": [
+          "Ispits"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Predmets": {
+      "get": {
+        "tags": [
+          "Predmets"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Predmets/{id}": {
+      "get": {
+        "tags": [
+          "Predmets"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Prijava": {
+      "post": {
+        "tags": [
+          "Prijava"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrijavaCreateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrijavaCreateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrijavaCreateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrijavaDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Prijava/ispit/{idPredmeta}/{idRoka}": {
+      "get": {
+        "tags": [
+          "Prijava"
+        ],
+        "parameters": [
+          {
+            "name": "idPredmeta",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "idRoka",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PrijavaDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Prijava/student/{idStudenta}": {
+      "get": {
+        "tags": [
+          "Prijava"
+        ],
+        "parameters": [
+          {
+            "name": "idStudenta",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PrijavaDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Prijava/{id}": {
+      "delete": {
+        "tags": [
+          "Prijava"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Student": {
+      "get": {
+        "tags": [
+          "Student"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Student"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Student"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Student"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Student"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Student/{id}": {
+      "get": {
+        "tags": [
+          "Student"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Student"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Student"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/StudentPredmet/{idStudenta}": {
+      "get": {
+        "tags": [
+          "StudentPredmet"
+        ],
+        "parameters": [
+          {
+            "name": "idStudenta",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/StudentPredmetDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/StudentPredmet/{idStudenta}/za-polaganje": {
+      "get": {
+        "tags": [
+          "StudentPredmet"
+        ],
+        "parameters": [
+          {
+            "name": "idStudenta",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/StudentPredmetDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/StudentPredmet": {
+      "post": {
+        "tags": [
+          "StudentPredmet"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DodajPredmetDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DodajPredmetDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DodajPredmetDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StudentPredmetDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/StudentPredmet/{idStudenta}/{idPredmeta}/{skolskaGodina}": {
+      "delete": {
+        "tags": [
+          "StudentPredmet"
+        ],
+        "parameters": [
+          {
+            "name": "idStudenta",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "idPredmeta",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "skolskaGodina",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Students": {
+      "get": {
+        "tags": [
+          "Students"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/StudentListDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Students/{id}": {
+      "get": {
+        "tags": [
+          "Students"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StudentListDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Students/pretraga": {
+      "get": {
+        "tags": [
+          "Students"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "smer",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "godinaUpisa",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "broj",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/StudentListDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Students/{id}/licni-podaci": {
+      "put": {
+        "tags": [
+          "Students"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/StudentUpdateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/StudentUpdateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/StudentUpdateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StudentListDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Students/{id}/polozeni-predmeti": {
+      "get": {
+        "tags": [
+          "Students"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StudentProsekDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Zapisniks": {
+      "get": {
+        "tags": [
+          "Zapisniks"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DodajPredmetDto": {
+        "required": [
+          "idPredmeta",
+          "idStudenta",
+          "skolskaGodina"
+        ],
+        "type": "object",
+        "properties": {
+          "idStudenta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idPredmeta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "skolskaGodina": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "IspitniRok": {
+        "type": "object",
+        "properties": {
+          "idRoka": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "naziv": {
+            "type": "string",
+            "nullable": true
+          },
+          "skolskaGod": {
+            "type": "string",
+            "nullable": true
+          },
+          "statusRoka": {
+            "type": "string",
+            "nullable": true
+          },
+          "prijavaIspita": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PrijavaIspitum"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PolozeniPredmetDto": {
+        "type": "object",
+        "properties": {
+          "nazivPredmeta": {
+            "type": "string",
+            "nullable": true
+          },
+          "espb": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ocena": {
+            "type": "number",
+            "format": "float"
+          },
+          "bodovi": {
+            "type": "string",
+            "nullable": true
+          },
+          "nazivRoka": {
+            "type": "string",
+            "nullable": true
+          },
+          "skolskaGod": {
+            "type": "string",
+            "nullable": true
+          },
+          "datum": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Predmet": {
+        "type": "object",
+        "properties": {
+          "idPredmeta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idProfesora": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "naziv": {
+            "type": "string",
+            "nullable": true
+          },
+          "espb": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "prijavaIspita": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PrijavaIspitum"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PrijavaCreateDto": {
+        "required": [
+          "idPredmeta",
+          "idRoka",
+          "idStudenta"
+        ],
+        "type": "object",
+        "properties": {
+          "idStudenta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idPredmeta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idRoka": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PrijavaDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idStudenta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "imeStudenta": {
+            "type": "string",
+            "nullable": true
+          },
+          "brojIndeksa": {
+            "type": "string",
+            "nullable": true
+          },
+          "idPredmeta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nazivPredmeta": {
+            "type": "string",
+            "nullable": true
+          },
+          "idRoka": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nazivRoka": {
+            "type": "string",
+            "nullable": true
+          },
+          "skolskaGod": {
+            "type": "string",
+            "nullable": true
+          },
+          "datumPrijave": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PrijavaIspitum": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idStudenta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idPredmeta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idRoka": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "datumPrijave": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "idPredmetaNavigation": {
+            "$ref": "#/components/schemas/Predmet"
+          },
+          "idRokaNavigation": {
+            "$ref": "#/components/schemas/IspitniRok"
+          },
+          "idStudentaNavigation": {
+            "$ref": "#/components/schemas/Student"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Student": {
+        "type": "object",
+        "properties": {
+          "idStudenta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ime": {
+            "type": "string",
+            "nullable": true
+          },
+          "prezime": {
+            "type": "string",
+            "nullable": true
+          },
+          "smer": {
+            "type": "string",
+            "nullable": true
+          },
+          "broj": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "godinaUpisa": {
+            "type": "string",
+            "nullable": true
+          },
+          "prijavaIspita": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PrijavaIspitum"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "StudentListDto": {
+        "type": "object",
+        "properties": {
+          "idStudenta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ime": {
+            "type": "string",
+            "nullable": true
+          },
+          "prezime": {
+            "type": "string",
+            "nullable": true
+          },
+          "brojIndeksa": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "StudentPredmetDto": {
+        "type": "object",
+        "properties": {
+          "idStudenta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idPredmeta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "skolskaGodina": {
+            "type": "string",
+            "nullable": true
+          },
+          "nazivPredmeta": {
+            "type": "string",
+            "nullable": true
+          },
+          "espb": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "jePolozio": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "StudentProsekDto": {
+        "type": "object",
+        "properties": {
+          "idStudenta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ime": {
+            "type": "string",
+            "nullable": true
+          },
+          "prezime": {
+            "type": "string",
+            "nullable": true
+          },
+          "brojIndeksa": {
+            "type": "string",
+            "nullable": true
+          },
+          "prosekOcena": {
+            "type": "number",
+            "format": "double"
+          },
+          "brojPolozenih": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "predmeti": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PolozeniPredmetDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "StudentUpdateDto": {
+        "required": [
+          "ime",
+          "prezime"
+        ],
+        "type": "object",
+        "properties": {
+          "ime": {
+            "maxLength": 25,
+            "minLength": 1,
+            "pattern": "^[A-Za-zÀ-žА-Яа-яĐđŠšČčĆćŽž\\s\\-']+$",
+            "type": "string"
+          },
+          "prezime": {
+            "maxLength": 40,
+            "minLength": 1,
+            "pattern": "^[A-Za-zÀ-žА-Яа-яĐđŠšČčĆćŽž\\s\\-']+$",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

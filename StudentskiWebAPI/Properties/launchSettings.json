@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "StudentskiWebAPI": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:59499;http://localhost:59500"
+    }
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|c:\\users\\windows10 home\\onedrive\\desktop\\pabp\\drugiseminarski\\studentskiwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|c:\\users\\windows10 home\\onedrive\\desktop\\pabp\\drugiseminarski\\studentskiwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|c:\\users\\windows10 home\\onedrive\\desktop\\pabp\\drugiseminarski\\studentskiwebapi\\data\\studentskicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|solutionrelative:data\\studentskicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|c:\\users\\windows10 home\\onedrive\\desktop\\pabp\\drugiseminarski\\studentskiwebapi\\controllers\\supportingcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|solutionrelative:controllers\\supportingcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|c:\\users\\windows10 home\\onedrive\\desktop\\pabp\\drugiseminarski\\studentskiwebapi\\controllers\\students1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|solutionrelative:controllers\\students1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|c:\\users\\windows10 home\\onedrive\\desktop\\pabp\\drugiseminarski\\studentskiwebapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|c:\\users\\windows10 home\\onedrive\\desktop\\pabp\\drugiseminarski\\studentskiwebapi\\controllers\\studentpredmetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|solutionrelative:controllers\\studentpredmetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|c:\\users\\windows10 home\\onedrive\\desktop\\pabp\\drugiseminarski\\studentskiwebapi\\controllers\\prijavacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|solutionrelative:controllers\\prijavacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|c:\\users\\windows10 home\\onedrive\\desktop\\pabp\\drugiseminarski\\studentskiwebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|c:\\users\\windows10 home\\onedrive\\desktop\\pabp\\drugiseminarski\\studentskiwebapi\\studentskiwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|solutionrelative:studentskiwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|c:\\users\\windows10 home\\onedrive\\desktop\\pabp\\drugiseminarski\\studentskiwebapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|c:\\users\\windows10 home\\onedrive\\desktop\\pabp\\drugiseminarski\\studentskiwebapi\\studentska-app\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|solutionrelative:studentska-app\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|c:\\users\\windows10 home\\onedrive\\desktop\\pabp\\drugiseminarski\\studentskiwebapi\\models\\prijavaispitum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|solutionrelative:models\\prijavaispitum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|c:\\users\\windows10 home\\onedrive\\desktop\\pabp\\drugiseminarski\\studentskiwebapi\\models\\ispitnirok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|solutionrelative:models\\ispitnirok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|c:\\users\\windows10 home\\onedrive\\desktop\\pabp\\drugiseminarski\\studentskiwebapi\\models\\predmet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|solutionrelative:models\\predmet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|c:\\users\\windows10 home\\onedrive\\desktop\\pabp\\drugiseminarski\\studentskiwebapi\\models\\prijava.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|solutionrelative:models\\prijava.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|c:\\users\\windows10 home\\onedrive\\desktop\\pabp\\drugiseminarski\\studentskiwebapi\\dtos\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D14658-2F8D-81F1-C2D0-B47F9C1C0AFE}|StudentskiWebAPI.csproj|solutionrelative:dtos\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentPredmetController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Controllers\\StudentPredmetController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentPredmetController.cs",
+              "ToolTip": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Controllers\\StudentPredmetController.cs",
+              "RelativeToolTip": "Controllers\\StudentPredmetController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T21:02:46.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T00:47:33.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Students1Controller.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Controllers\\Students1Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Students1Controller.cs",
+              "ToolTip": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Controllers\\Students1Controller.cs",
+              "RelativeToolTip": "Controllers\\Students1Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T21:02:59.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SupportingControllers.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Controllers\\SupportingControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\SupportingControllers.cs",
+              "ToolTip": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Controllers\\SupportingControllers.cs",
+              "RelativeToolTip": "Controllers\\SupportingControllers.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAUwN4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T22:27:51.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentskiContext.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Data\\StudentskiContext.cs",
+              "RelativeDocumentMoniker": "Data\\StudentskiContext.cs",
+              "ToolTip": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Data\\StudentskiContext.cs",
+              "RelativeToolTip": "Data\\StudentskiContext.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAQwLcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T23:58:04.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T20:58:32.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-24T21:06:59.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentskiWebAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\StudentskiWebAPI.csproj",
+              "RelativeDocumentMoniker": "StudentskiWebAPI.csproj",
+              "ToolTip": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\StudentskiWebAPI.csproj",
+              "RelativeToolTip": "StudentskiWebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-25T01:03:06.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T23:57:25.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PrijavaController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Controllers\\PrijavaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PrijavaController.cs",
+              "ToolTip": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Controllers\\PrijavaController.cs",
+              "RelativeToolTip": "Controllers\\PrijavaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T22:27:44.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\studentska-app\\vite.config.js",
+              "RelativeDocumentMoniker": "studentska-app\\vite.config.js",
+              "ToolTip": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\studentska-app\\vite.config.js",
+              "RelativeToolTip": "studentska-app\\vite.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-25T12:22:41.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-24T21:02:02.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PrijavaIspitum.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Models\\PrijavaIspitum.cs",
+              "RelativeDocumentMoniker": "Models\\PrijavaIspitum.cs",
+              "ToolTip": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Models\\PrijavaIspitum.cs",
+              "RelativeToolTip": "Models\\PrijavaIspitum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T23:59:50.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Predmet.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Models\\Predmet.cs",
+              "RelativeDocumentMoniker": "Models\\Predmet.cs",
+              "ToolTip": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Models\\Predmet.cs",
+              "RelativeToolTip": "Models\\Predmet.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAnwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T23:58:49.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IspitniRok.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Models\\IspitniRok.cs",
+              "RelativeDocumentMoniker": "Models\\IspitniRok.cs",
+              "ToolTip": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Models\\IspitniRok.cs",
+              "RelativeToolTip": "Models\\IspitniRok.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAnwAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T23:58:57.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Prijava.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Models\\Prijava.cs",
+              "RelativeDocumentMoniker": "Models\\Prijava.cs",
+              "ToolTip": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\Models\\Prijava.cs",
+              "RelativeToolTip": "Models\\Prijava.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T23:57:30.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DTOs.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\DTOs\\DTOs.cs",
+              "RelativeDocumentMoniker": "DTOs\\DTOs.cs",
+              "ToolTip": "C:\\Users\\Windows10 Home\\OneDrive\\Desktop\\PABP\\DrugiSeminarski\\StudentskiWebAPI\\DTOs\\DTOs.cs",
+              "RelativeToolTip": "DTOs\\DTOs.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAIwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T21:06:54.541Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
